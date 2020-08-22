@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';// we have to import react "Component" from react to add the Component property in'App
+// class
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// let first = React.createElement('h1', null, "Hello React");
+// export default first;
+
+
+class App extends Component {//extends component
+     render(){//method 
+          // return React.createElement("h1",null,"Hello react from component");
+          return  <h1>Hello, This message is comming from JSX.</h1>//using JSX
+
+     }
 }
 
-export default App;
+export default App;//eport 'App' class to index.js
