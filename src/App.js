@@ -1,16 +1,27 @@
 import React, {Component} from 'react';// we have to import react "Component" from react to add the Component property in'App
-// class
+import Header from './Components/header/header';
+import Footer from './Components/footer/footer';
+import Home from './Components/pages/home';
+import "./Assests/header.css";
+import "./Assests/footer.css";
+import "./Assests/home.css";
 
-// let first = React.createElement('h1', null, "Hello React");
-// export default first;
+
+
 
 
 class App extends Component {//extends component
-     render(){//method 
-          // return React.createElement("h1",null,"Hello react from component");
-          return  <h1>Hello, This message is comming from JSX.</h1>//using JSX
-
+     render(){  
+          return(
+               <>
+                    <Header />
+                    <Home />
+                    <Footer />
+               
+               </>
+          );
+         
      }
 }
 
-export default App;//eport 'App' class to index.js
+export default App;//export 'App' class to index.js

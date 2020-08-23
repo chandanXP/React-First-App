@@ -1,0 +1,50 @@
+.container{
+     border: 2px solid chocolate;
+     height: 90vh;
+     width: 100%;
+     background-color: crimson;
+}
+.homeBanner{
+     border: 2px solid blueviolet;
+     height: 20vh;
+     width: 95%;
+     font-size: 1.8rem;
+     padding: 20px;
+     margin-top: 30px;
+     text-align: left;
+     margin: auto;
+
+}
+
+.webDescription{
+     height: 250px;
+     width: 55%;
+     border: 2px solid gold;
+     text-align: left;
+     padding: 20px;
+     font-size: 1.4rem;
+     margin: 15px 0px 0px 15px;
+      
+}
+.userSection{
+     border: 2px solid aqua;
+     width: 95%;
+     height: 100px;
+     text-align: left;
+     padding: 20px;
+     margin : 15px 0px 0px 15px;
+}
+.userPicture{
+     border: 2px solid royalblue;
+     height: 500px;
+     width: 600px;
+     text-align: center;
+     justify-content: center;
+     position: absolute;
+     right: 0px;
+     bottom: 10px;
+     display:table-cell;
+     vertical-align: middle;
+     margin-right: 15px;
+      
+}

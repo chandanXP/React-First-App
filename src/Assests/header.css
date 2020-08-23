@@ -1,0 +1,49 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: verdana, sans-serif;
+     
+}
+ 
+.navbar{
+     border: 2px solid olivedrab;
+     display: flex;
+     height: 60px;
+     /* padding: 0px 50px ; */
+     padding: 0px 100px 0px 100px;
+     background-color: teal;
+}
+ 
+.logo{
+     margin: auto 0px;
+     padding: 0px;
+     /* background-color: red; */
+     border: 2px solid brown;
+     font-size: 1.6rem;
+     color: white;
+
+     
+     
+}
+ 
+nav{
+     margin: auto;
+}
+nav ul{
+     display: flex;
+     /* display: block; */
+     border: 2px solid black;
+     text-decoration: none;
+     list-style: none;     
+
+
+}
+nav ul li a{
+     display: block;
+     text-decoration: none;
+     border: 2px sloid red;
+     margin: auto 30px;
+     font-size: 1.4rem;
+     color: white;
+     
+}
