@@ -466,8 +466,8 @@
      
      }
      .friendsIcon{
-          height: 145px;
-          width: 96px;
+          height: 125px;
+          width: 80px;
           /* border: 2px solid seagreen; */
           margin-right: 20px;
      
@@ -478,10 +478,10 @@
      }
      
      .friendPhoto{
-          height: 100px;
-          width: 94px;
+          height: 85px;
+          width: 80px;
           /* border: 2px solid thistle; */
-          margin-right: 20px;
+          margin-right: 10px;
           
       
      
@@ -494,7 +494,7 @@
           min-height: 100%;
      }
      .friendName{
-          font-size: 0.8rem;
+          font-size: 0.7rem;
      
      }
 
@@ -503,4 +503,12 @@
 
 
 
+
+}
+
+@media only screen and (max-width: 300px) {
+
+     .webDescription{
+          font-size: 1.2rem;
+     }
 }
