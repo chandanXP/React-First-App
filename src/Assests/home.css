@@ -1,49 +1,506 @@
 .container{
-     border: 2px solid chocolate;
-     height: 90vh;
+     /* border: 2px solid chocolate; */
+     /* height: 140vh; */
+     height: auto;
+
      width: 100%;
-     background-color: crimson;
+     /* background-color: #C2C4C7; */
+
+     /* background-color: #394B60; */
+
+     background-color: #28334AFF;
+     box-shadow: -4px 0 -8px rgba(0, 0, 0, 0.7); 
+
+
+     /* background-color: #8AAADC; */
+     /* Colors: 8AAADC, 3F3556, 394B60, C2C4C7 */
+     /* #603F83FF) and Ice Flow (#C7D3D4FF)
+     #101820FF) and Orange (#F2AA4CFF)
+     #101820FF) and Blazing Yellow (#FEE715FF)
+     #00B1D2FF) and Vibrant Yellow (#FDDB27FF) black:#28334AFF */
 }
-.homeBanner{
-     border: 2px solid blueviolet;
-     height: 20vh;
-     width: 95%;
-     font-size: 1.8rem;
-     padding: 20px;
-     margin-top: 30px;
-     text-align: left;
-     margin: auto;
+.homeBody{
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid forestgreen; */
+     /* margin-top: 20px; */
+     padding-top: 20px;
+}
+
+.userPicture{
+     
+     /* border: 2px solid royalblue; */
+     height: auto;
+     width: 400px;
+     text-align: center;
+     justify-content: center; 
+     top: 65px; 
+     margin: 0px auto;
+     border-radius: 20px;
+     background-color: #00B1D2FF;
+     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
+
+
+
+
+ 
+}
+
+.userPicture p{
+     margin-top: 10px;
+     font-family: 'Do Hyeon', sans-serif;
+     color: #3F3556;
+
+
+}
+
+.userPicture h1{
+     margin-top: 10px;
+     /* color: #00B1D2FF; */
+     color: #3F3556;
+     
+     font-family: 'Do Hyeon', sans-serif;
+}
+
+.userPhoto{
+     height: 350px;
+     width: 400px;
+     /* border: 2px solid black; */
+     border-radius: 20px;
+     box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.7); 
+
+}
+.userPhoto img{
+     border-radius: 20px;
+     min-width: 100%;
+     max-height: 100%;
+     border: 1px ridge #FEE715FF;
+}
+
+.namePlate{
+     height: 90px;
+     width: auto;
+     /* border: 2px solid goldenrod; */
+     
 
 }
 
 .webDescription{
-     height: 250px;
-     width: 55%;
-     border: 2px solid gold;
+     height: 410px;
+     width: 62%;
+     border: 4px ridge #00B1D2FF;
      text-align: left;
-     padding: 20px;
-     font-size: 1.4rem;
-     margin: 15px 0px 0px 15px;
-      
+     padding: 30px;
+     font-size: 1.6rem;
+     margin: auto;
+     border-radius: 20px;
+     color: #3F3556;
+     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
+     background-color: #FEE715FF;
+     font-family: 'Anton', sans-serif;
+
+ 
 }
+
+.footerContainer{
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid cyan; */
+
+}
+
 .userSection{
-     border: 2px solid aqua;
-     width: 95%;
-     height: 100px;
+     border: 4px ridge #00B1D2FF;
+     width: 80%;
+     height: 140px;
      text-align: left;
      padding: 20px;
-     margin : 15px 0px 0px 15px;
+     margin : 20px 0px 20px 20px;
+     border-radius: 20px;
+     color: #3F3556;
+     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
+     background-color: #FEE715FF;
+
+
+
+
+
 }
-.userPicture{
-     border: 2px solid royalblue;
-     height: 500px;
-     width: 600px;
+.userSection h2{
+     color: #00B1D2FF;
+     font-family: 'Do Hyeon', sans-serif;
+
+
+}
+
+.social{
+     border: 4px ridge #00B1D2FF;
+     height: 180px;
+     width: 180px;
+     margin : 20px 0px 0px 20px;
+     border-radius: 20px;
+     background-color: #00B1D2FF;
+     color: #3F3556;
+     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
+     /* background-color: #00B1D2FF; */
+
+
+
+
+
+
+
+}
+
+.socialLogos{
+     /* border: 2px solid black; */
+     height: 130px;
+     width: auto;
+     border-radius: 20px;
+     display: block;
+     font-size: 3.2rem;
+     padding: 0px 20px 0px 20px;
+     background-color: #FEE715FF;
+     box-shadow: 0px 0 8px rgba(0, 0, 0, 0.7); 
+
+     
+
+
+}
+.socialLogos a{
+     padding: 10px;
+     color: #00B1D2FF;
+     /* border: 1px solid #FEE715FF; */
+     margin: auto;
+
+}
+
+.socialHeading{
+     /* border: 2px solid rgb(135, 160, 95); */
+     height: 35px;
+     width: auto;
+     padding-top: 10px;
      text-align: center;
-     justify-content: center;
-     position: absolute;
-     right: 0px;
-     bottom: 10px;
-     display:table-cell;
-     vertical-align: middle;
-     margin-right: 15px;   
+     /* border-radius: 20px; */
+     /* background-color: #FEE715FF; */
+     font-family: 'Do Hyeon', sans-serif;
+
+    
+}
+
+.friendsContainer{
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid cyan; */
+     height: 180px;
+     padding: 20px;
+
+
+
+}
+.friendsIcon{
+     height: 170px;
+     width: 130px;
+     /* border: 2px solid seagreen; */
+     margin-right: 20px;
+     border-radius: 20px;
+     background-color: #00B1D2FF;
+     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
+
+
+
+
+
+}
+
+.friendPhoto{
+     height: 130px;
+     width: 130px;
+     /* border: 2px solid thistle; */
+     margin-right: 20px;
+     border-radius: 20px;
+     box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.7); 
+ 
+
+
+
+}
+.friendPhoto img{
+     border-radius: 20px;
+     max-width: 100%;
+     min-height: 100%;
+     border: 2px ridge #FEE715FF;
+}
+.friendName{
+     padding-top: 10px;
+     text-align: center;
+     color: #3F3556;
+
+}
+
+.friendName{
+     font-size: 1.0rem;
+     font-family: 'Do Hyeon', sans-serif;
+
+}
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width: 1125px) {
+     .webDescription{
+          height: auto;
+          font-size: 1.4rem;
+          width: 55%;
+
+
+     }
+     .userPicture{
+          width: 380px;
+
+     }
+     .userPhoto{
+          width: auto;
+     }
+     .userSection{
+          width: 75%;
+     }
+     .social{
+          width: 160px;
+     }
+     .socialLogos{
+          padding: 0px 10px 0px 10px;
+
+     }
+
+}
+
+@media only screen and (max-width: 850px) {
+     .webDescription{
+          height: auto;
+          font-size: 1.3rem;
+          width: 45%;
+
+
+     }
+     .userPicture{
+          width: 340px;
+          height: fit-content;
+
+     }
+     .userPhoto{
+          width: 340px;
+          height: 340px;
+          border: none;
+          box-shadow: none;
+     }
+     .userPhoto img{
+          border-radius: 20px;
+          max-width: 100%;
+          max-height: 100%;
+          border: 1px ridge #FEE715FF;
+          box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.7); 
+
+     }
+     .userPicture p{
+          margin-bottom: 25px;
+     }
+     .userSection{
+          width: 67%;
+          height: fit-content;
+
+     }
+
+     .social{
+          width: 160px;
+          height: 200px;
+
+     }
+     .socialLogos{
+          padding: 0px 10px 0px 10px;
+          height: 140px;
+
+
+     }
+     
+
+}
+/* next media will be 470px */
+
+@media only screen and (max-width: 850px) {
+     .homeBody{
+          flex-direction: column;
+          width: 100vw;
+          padding: 0px;
+          margin: 0px;
+     }
+
+     .userPicture{
+     
+          /* border: 2px solid royalblue; */
+          width: 95vw;
+          /* top: 65px;  */
+          margin: 0px auto;
+          border-radius: 20px;
+          z-index: 3;
+           
+      
+     }
+
+     .userPhoto{
+          height: 420px;
+          width: 95vw;
+          /* border: 2px solid black; */
+          border-radius: 20px;
+           
+     
+     }
+     .userPhoto img{
+          border-radius: 20px;
+          
+     }
+     .webDescription{
+          width: 83vw;
+          border-radius: 20px;
+          z-index: 2;
+          border: 2px ridge #00B1D2FF;
+          margin: 0px auto;
+
+          
+          /* position: absolute;
+          padding-top: 150px;
+          top: 500px; */
+          /* display: none; */
+
+
+     }
+     .footerContainer{
+          flex-direction: column;
+          padding: 0px;
+          margin: 0px;
+     
+     }
+     .userSection{
+          width: 86vw;
+          margin: 0px auto;
+     }
+
+
+      
+     
+}
+
+
+@media only screen and (max-width: 410px) {
+     .userPhoto{
+          height: auto;
+     }
+     .social{
+          margin-left: 5px;
+     }
+
+     .friendsContainer{
+           
+          /* border: 2px solid cyan; */
+          height: 180px;
+          padding: 10px;
+
+     
+     
+     
+     }
+     .friendsIcon{
+          height: 165px;
+          width: 112px;
+          /* border: 2px solid seagreen; */
+          margin-right: 20px;
+          
+     
+     
+     
+     
+     }
+     
+     .friendPhoto{
+          height: 110px;
+          width: 110px;
+          /* border: 2px solid thistle; */
+          margin-right: 20px;
+            
+      
+     
+     
+     
+     }
+     .friendPhoto img{
+          border-radius: 20px;
+          max-width: 100%;
+          min-height: 100%;
+     }
+
+}
+
+
+@media only screen and (max-width: 350px) {
+
+     .webDescription{
+          width: 78vw;
+     }
+     .userSection{
+          width: 84vw;
+          border-width: 2px;
+
+     }
+     .friendsContainer{
+          margin-top: 15px;
+           
+          /* border: 2px solid cyan; */
+          height: 180px;
+          padding: 5px;
+
+     
+     
+     
+     }
+     .friendsIcon{
+          height: 145px;
+          width: 96px;
+          /* border: 2px solid seagreen; */
+          margin-right: 20px;
+     
+     
+     
+     
+     
+     }
+     
+     .friendPhoto{
+          height: 100px;
+          width: 94px;
+          /* border: 2px solid thistle; */
+          margin-right: 20px;
+          
+      
+     
+     
+     
+     }
+     .friendPhoto img{
+          border-radius: 20px;
+          max-width: 100%;
+          min-height: 100%;
+     }
+     .friendName{
+          font-size: 0.8rem;
+     
+     }
+
+
+
+
+
+
 }

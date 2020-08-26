@@ -19,8 +19,7 @@ class App extends Component {//extends component
                     <Footer />
                
                </>
-          );
-         
+          );    
      }
 }
 

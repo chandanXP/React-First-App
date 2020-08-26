@@ -6,24 +6,35 @@
 }
  
 .navbar{
-     border: 2px solid olivedrab;
+     /* border: 2px solid olivedrab; */
      display: flex;
      height: 60px;
-     /* padding: 0px 50px ; */
-     padding: 0px 100px 0px 100px;
-     background-color: teal;
+     padding: 0px 50px 0px 50px;
+     background-color: #28334AFF;
+
+     /* box-shadow: 4px 0px  8px rgba(0, 0, 0, 0.7);  */
+     z-index: 2;
+     border-bottom: 2px ridge rgb(255, 255, 255, 0.2);
+     
+     
+
+     
+
 }
  
 .logo{
-     margin: auto 0px;
+     margin: auto 50px;
      padding: 0px;
-     /* background-color: red; */
-     border: 2px solid brown;
+     /* border: 2px solid brown; */
      font-size: 1.6rem;
-     color: white;
+     /* color: white; */
+     color: #00B1D2FF;
+     font-weight: bold;
+     text-shadow:0.1em 0.1em black;
 
-     
-     
+
+
+  
 }
  
 nav{
@@ -31,19 +42,45 @@ nav{
 }
 nav ul{
      display: flex;
-     /* display: block; */
-     border: 2px solid black;
+     /* border: 2px solid black; */
      text-decoration: none;
      list-style: none;     
-
-
+ 
 }
 nav ul li a{
      display: block;
      text-decoration: none;
-     border: 2px sloid red;
+     /* border: 2px sloid red; */
      margin: auto 30px;
      font-size: 1.4rem;
      color: white;
+     /* color: #3F3556; */
+     font-weight: bold;
+     /* text-shadow:0.1em 0.1em black; */
+
      
 }
+
+
+/* MEDIA QUERY */
+
+
+
+
+ 
+@media only screen and (max-width: 850px) {
+     .navbar{
+          border: none;
+     }
+     nav{
+          display: none;
+          padding: 0px;
+
+     }
+     .logo{
+          /* padding: 0px 50px 0px 50px; */
+          margin: auto 0px;
+
+          /* margin-left: 50px; */
+     }
+} 
