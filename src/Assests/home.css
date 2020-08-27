@@ -380,12 +380,15 @@
      .footerContainer{
           flex-direction: column;
           padding: 0px;
-          margin: 0px;
+          margin-bottom: 15px;
      
      }
      .userSection{
           width: 86vw;
           margin: 0px auto;
+     }
+     .friendsContainer{
+          display: none;
      }
 
 
@@ -402,9 +405,9 @@
           margin-left: 5px;
      }
 
-     .friendsContainer{
+     /* .friendsContainer{
            
-          /* border: 2px solid cyan; */
+          border: 2px solid cyan;
           height: 180px;
           padding: 10px;
 
@@ -415,7 +418,7 @@
      .friendsIcon{
           height: 165px;
           width: 112px;
-          /* border: 2px solid seagreen; */
+          border: 2px solid seagreen;
           margin-right: 20px;
           
      
@@ -427,7 +430,7 @@
      .friendPhoto{
           height: 110px;
           width: 110px;
-          /* border: 2px solid thistle; */
+          border: 2px solid thistle;
           margin-right: 20px;
             
       
@@ -439,7 +442,7 @@
           border-radius: 20px;
           max-width: 100%;
           min-height: 100%;
-     }
+     } */
 
 }
 
@@ -454,10 +457,10 @@
           border-width: 2px;
 
      }
-     .friendsContainer{
+     /* .friendsContainer{
           margin-top: 15px;
            
-          /* border: 2px solid cyan; */
+          border: 2px solid cyan;
           height: 180px;
           padding: 5px;
 
@@ -468,7 +471,7 @@
      .friendsIcon{
           height: 125px;
           width: 80px;
-          /* border: 2px solid seagreen; */
+          border: 2px solid seagreen;
           margin-right: 20px;
      
      
@@ -480,7 +483,7 @@
      .friendPhoto{
           height: 85px;
           width: 80px;
-          /* border: 2px solid thistle; */
+          border: 2px solid thistle;
           margin-right: 10px;
           
       
@@ -497,7 +500,7 @@
           font-size: 0.7rem;
      
      }
-
+ */
 
 
 
@@ -548,9 +551,9 @@
           margin-left: 15px;
      }
 
-     .friendsContainer{
+     /* .friendsContainer{
            
-          /* border: 2px solid cyan; */
+          border: 2px solid cyan;
           height: 180px;
           padding: 10px;
 
@@ -561,7 +564,7 @@
      .friendsIcon{
           height: 135px;
           width: 82px;
-          /* border: 2px solid seagreen; */
+          border: 2px solid seagreen;
           margin-right: 10px;
           
      
@@ -573,7 +576,7 @@
      .friendPhoto{
           height: 80px;
           width: 80px;
-          /* border: 2px solid thistle; */
+          border: 2px solid thistle;
           margin-right: 10px;
             
       
@@ -585,14 +588,14 @@
           border-radius: 20px;
           max-width: 100%;
           min-height: 100%;
-     }
+     } */
 }
 
 @media only screen and (max-width: 280px) {
 
-     .friendsContainer{
+     /* .friendsContainer{
           display: none;
-     }
+     } */
      .social{
           margin-bottom: 10px;
      }
