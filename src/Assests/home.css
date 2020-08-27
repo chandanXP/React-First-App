@@ -508,7 +508,94 @@
 
 @media only screen and (max-width: 300px) {
 
+     .userPicture{
+          width: 85vw;
+          height: fit-content;
+
+     }
+     .userPhoto{
+          width: 85vw;
+          height: 340px;
+          border: none;
+          box-shadow: none;
+     }
+     .userPhoto img{
+          border-radius: 20px;
+          max-width: 100%;
+          max-height: 100%;
+          border: 1px ridge #FEE715FF;
+          box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.7); 
+
+     }
+
      .webDescription{
-          font-size: 1.2rem;
+          font-size: 1.0rem;
+          padding: 10px;
+     }
+
+     .userSection{
+          width: 80vw;
+          font-size: 1.0rem;
+          padding: 10px;
+
+
+     }
+
+     .userPhoto{
+          height: auto;
+     }
+     .social{
+          margin-left: 15px;
+     }
+
+     .friendsContainer{
+           
+          /* border: 2px solid cyan; */
+          height: 180px;
+          padding: 10px;
+
+     
+     
+     
+     }
+     .friendsIcon{
+          height: 135px;
+          width: 82px;
+          /* border: 2px solid seagreen; */
+          margin-right: 10px;
+          
+     
+     
+     
+     
+     }
+     
+     .friendPhoto{
+          height: 80px;
+          width: 80px;
+          /* border: 2px solid thistle; */
+          margin-right: 10px;
+            
+      
+     
+     
+     
+     }
+     .friendPhoto img{
+          border-radius: 20px;
+          max-width: 100%;
+          min-height: 100%;
      }
 }
+
+@media only screen and (max-width: 280px) {
+
+     .friendsContainer{
+          display: none;
+     }
+     .social{
+          margin-bottom: 10px;
+     }
+}
+
+
