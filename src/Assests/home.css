@@ -396,6 +396,55 @@
      
 }
 
+@media only screen and (max-width: 500px) {
+     .container{
+          padding-right: 10px;
+     }
+     .userPicture{
+     
+          
+          width: 85vw;
+          
+          margin: 0px auto;
+           
+      
+     }
+
+     .userPhoto{
+          height: 420px;
+          width: 85vw;
+          /* border: 2px solid black; */
+          border-radius: 20px;
+           
+     
+     }
+    
+     .webDescription{
+          width: 80vw;
+          font: 1.2rem;
+          padding: 15px;
+     }
+     .footerContainer{
+          margin-bottom: 0px;
+     }
+     .userSection{
+          width: 80vw;
+          padding: 15px;
+
+
+
+     }
+     .userPhoto{
+          height: auto;
+     }
+     .social{
+          margin-left: 5px;
+          margin-bottom: 20px;
+     }
+     
+
+}
+
 
 @media only screen and (max-width: 410px) {
      .userPhoto{
