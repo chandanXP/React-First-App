@@ -3,20 +3,11 @@
      height: 50px;
      color: white;
      background-color: #28334AFF;
-
-     
-
-     /* padding: 30px; */
      margin: auto 0px;
-     /* padding: 0px; */
      padding-top: 10px;
      text-align: center;
      border-top: 2px ridge rgb(255, 255, 255, 0.2);
-
-     
-
-
-     
+      
 }
 .text{
      /* margin: auto; */
@@ -24,9 +15,7 @@
      color: white;
      opacity: 0.6;
      font-family: 'Do Hyeon', sans-serif;
-
-
-
+ 
 }
 
 

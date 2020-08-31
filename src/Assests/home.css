@@ -1,17 +1,12 @@
 .container{
      /* border: 2px solid chocolate; */
-     /* height: 140vh; */
      height: auto;
-
-     width: 100%;
-     /* background-color: #C2C4C7; */
-
-     /* background-color: #394B60; */
-
+     width: 100%; 
      background-color: #28334AFF;
      box-shadow: -4px 0 -8px rgba(0, 0, 0, 0.7); 
 
-
+     /* background-color: #C2C4C7; */
+     /* background-color: #394B60; */
      /* background-color: #8AAADC; */
      /* Colors: 8AAADC, 3F3556, 394B60, C2C4C7 */
      /* #603F83FF) and Ice Flow (#C7D3D4FF)
@@ -39,10 +34,6 @@
      border-radius: 20px;
      background-color: #00B1D2FF;
      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
-
-
-
-
  
 }
 
@@ -50,16 +41,14 @@
      margin-top: 10px;
      font-family: 'Do Hyeon', sans-serif;
      color: #3F3556;
-
-
 }
 
 .userPicture h1{
      margin-top: 10px;
      /* color: #00B1D2FF; */
      color: #3F3556;
-     
      font-family: 'Do Hyeon', sans-serif;
+     
 }
 
 .userPhoto{
@@ -81,8 +70,6 @@
      height: 90px;
      width: auto;
      /* border: 2px solid goldenrod; */
-     
-
 }
 
 .webDescription{
@@ -98,7 +85,6 @@
      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
      background-color: #FEE715FF;
      font-family: 'Anton', sans-serif;
-
  
 }
 
@@ -120,17 +106,11 @@
      color: #3F3556;
      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
      background-color: #FEE715FF;
-
-
-
-
-
+ 
 }
 .userSection h2{
      color: #00B1D2FF;
      font-family: 'Do Hyeon', sans-serif;
-
-
 }
 
 .social{
@@ -144,12 +124,6 @@
      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
      /* background-color: #00B1D2FF; */
 
-
-
-
-
-
-
 }
 
 .socialLogos{
@@ -162,10 +136,7 @@
      padding: 0px 20px 0px 20px;
      background-color: #FEE715FF;
      box-shadow: 0px 0 8px rgba(0, 0, 0, 0.7); 
-
-     
-
-
+ 
 }
 .socialLogos a{
      padding: 10px;
@@ -184,8 +155,7 @@
      /* border-radius: 20px; */
      /* background-color: #FEE715FF; */
      font-family: 'Do Hyeon', sans-serif;
-
-    
+  
 }
 
 .friendsContainer{
@@ -194,9 +164,7 @@
      /* border: 2px solid cyan; */
      height: 180px;
      padding: 20px;
-
-
-
+ 
 }
 .friendsIcon{
      height: 170px;
@@ -206,11 +174,7 @@
      border-radius: 20px;
      background-color: #00B1D2FF;
      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
-
-
-
-
-
+ 
 }
 
 .friendPhoto{
@@ -220,10 +184,7 @@
      margin-right: 20px;
      border-radius: 20px;
      box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.7); 
- 
-
-
-
+  
 }
 .friendPhoto img{
      border-radius: 20px;
@@ -243,20 +204,16 @@
      font-family: 'Do Hyeon', sans-serif;
 
 }
-
-
-
+ 
 
 /* MEDIA QUERY */
-
-
+ 
 @media only screen and (max-width: 1125px) {
      .webDescription{
           height: auto;
           font-size: 1.4rem;
           width: 55%;
-
-
+ 
      }
      .userPicture{
           width: 380px;
@@ -283,8 +240,7 @@
           height: auto;
           font-size: 1.3rem;
           width: 45%;
-
-
+ 
      }
      .userPicture{
           width: 340px;
@@ -322,13 +278,11 @@
      .socialLogos{
           padding: 0px 10px 0px 10px;
           height: 140px;
-
-
+ 
      }
      
 
 }
-/* next media will be 470px */
 
 @media only screen and (max-width: 850px) {
      .homeBody{
@@ -340,23 +294,16 @@
 
      .userPicture{
      
-          /* border: 2px solid royalblue; */
           width: 95vw;
-          /* top: 65px;  */
           margin: 0px auto;
           border-radius: 20px;
           z-index: 3;
-           
-      
      }
 
      .userPhoto{
           height: 420px;
           width: 95vw;
-          /* border: 2px solid black; */
           border-radius: 20px;
-           
-     
      }
      .userPhoto img{
           border-radius: 20px;
@@ -368,13 +315,6 @@
           z-index: 2;
           border: 2px ridge #00B1D2FF;
           margin: 0px auto;
-
-          
-          /* position: absolute;
-          padding-top: 150px;
-          top: 500px; */
-          /* display: none; */
-
 
      }
      .footerContainer{
@@ -397,26 +337,20 @@
 }
 
 @media only screen and (max-width: 500px) {
-     /* .container{
-          padding-right: 10px;
-     } */
      .userPicture{
      
           
           width: 85vw;
           
           margin: 0px auto;
-           
-      
+       
      }
 
      .userPhoto{
           height: 420px;
           width: 85vw;
-          /* border: 2px solid black; */
           border-radius: 20px;
-           
-     
+       
      }
     
      .webDescription{
@@ -430,8 +364,6 @@
      .userSection{
           width: 80vw;
           padding: 15px;
-
-
 
      }
      .userPhoto{

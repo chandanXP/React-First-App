@@ -44,7 +44,6 @@ class Home extends Component {
                                    in interviews.
                                    you can add your friends to your account, your friends can see your profile, like and comment on your post  
                                    and people also can find your friends. You can share your daily experience and problem you are facing in you life.
-
                                    This app made using reactjs,and javascript.
                               </p>
                          </div>
